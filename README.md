@@ -2,6 +2,8 @@
 
 一个根据 YouTube URL 提取视频 transcript，并清理、整理成格式化文稿的 skill。
 
+支持 Claude Code、Codex 等 CLI Agent，直接使用其模型进行清洗和格式化工作。
+
 ## 功能
 
 - 根据 YouTube URL 提取 transcript
@@ -11,17 +13,7 @@
 
 ## 安装
 
-### Codex
-
-对 Codex 说：
-
-```text
-帮我安装 `itsgxxxxx/youtube-transcript` 里面的这个 skill。
-```
-
-### Claude Code
-
-对 Claude Code 说：
+可以直接对你的 Claude Code 或 Codex 说：
 
 ```text
 帮我安装 `itsgxxxxx/youtube-transcript` 里面的这个 skill。
